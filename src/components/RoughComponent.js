@@ -5,7 +5,7 @@ const RoughComponent = () => {
   return (
     <div>
       RoughComponent
-      <span> some new changes</span>
+      <div> some new changes</div>
     </div>
   );
 };
