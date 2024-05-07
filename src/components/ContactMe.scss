@@ -1,0 +1,104 @@
+.connect-section {
+  padding: 4rem 10rem 4rem 10rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.connect-header {
+  padding-left: 5rem;
+}
+.connect-header span {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.connect-header p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #767676;
+}
+.connectwitme {
+  display: flex;
+  flex-direction: row;
+}
+.downloadgif {
+  height: 7rem;
+  width: 7rem;
+  text-align: center;
+  margin-left: 3.7rem;
+}
+.resume-part {
+  flex: 1;
+  display: flex;
+  padding-left: 5rem;
+  flex-direction: column;
+  // text-align: center;
+  margin-top: 4.5rem;
+  // align-items: center;
+}
+.text-download {
+  // padding-top: 1rem;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.download-btn {
+  margin-top: 2rem;
+  background-color: #45260a;
+  color: #fff;
+  padding: 0.7rem;
+  text-align: center;
+  margin-left: 1rem;
+  border-radius: 2rem;
+  width: 12rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.form-part {
+  flex: 2;
+  padding: 3rem 3rem;
+  width: 100%;
+}
+.connect-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 1.5rem;
+}
+.connect-form label {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.connect-form input,
+.connect-form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.connect-form input::placeholder,
+.connect-form textarea::placeholder {
+  color: #aaa;
+}
+
+.text-area {
+  grid-column: 1/3;
+}
+.submit-btn {
+  background-color: #45260a;
+  color: #fff;
+  padding: 0.7rem;
+  align-self: center;
+  border-radius: 2rem;
+  width: 12rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
