@@ -6,6 +6,7 @@ import InspiringQuotes from "./components/InspiringQuotes";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import GotoTop from "./components/GotoTop";
+import RoughComponent from "./components/roughComponent";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <InspiringQuotes />
       <ContactMe />
       <GotoTop />
+      <RoughComponent />
     </div>
   );
 }
