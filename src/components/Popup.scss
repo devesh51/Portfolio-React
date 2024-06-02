@@ -1,0 +1,157 @@
+.popup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(255 255 255 / 5%);
+  backdrop-filter: blur(10px);
+}
+
+.popup {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: all 0.5s;
+  border: solid 1px #555;
+}
+
+.popup img {
+  width: 8rem;
+  margin-top: -4rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.popup h2 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 5px 6px;
+}
+
+.popup p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.btn-ok {
+  font-size: 15px;
+  color: #fff;
+  background-color: orange;
+  font-weight: 100;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+/* Mobile devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .popup {
+    width: 90%;
+    padding: 0.5rem;
+  }
+
+  .popup img {
+    width: 6rem;
+  }
+
+  .popup h2 {
+    font-size: 2rem;
+  }
+
+  .popup p {
+    font-size: 1rem;
+  }
+
+  .btn-ok {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .popup {
+    width: 80%;
+    padding: 0.75rem;
+  }
+
+  .popup img {
+    width: 7rem;
+  }
+
+  .popup h2 {
+    font-size: 2.5rem;
+  }
+
+  .popup p {
+    font-size: 1.1rem;
+  }
+
+  .btn-ok {
+    font-size: 14px;
+    padding: 9px 18px;
+  }
+}
+
+/* Small laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .popup {
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .popup img {
+    width: 7.5rem;
+  }
+
+  .popup h2 {
+    font-size: 2.8rem;
+  }
+
+  .popup p {
+    font-size: 1.15rem;
+  }
+
+  .btn-ok {
+    font-size: 14px;
+    padding: 9px 18px;
+  }
+}
+
+/* Desktop and larger screens (1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .popup {
+    width: 60%;
+    padding: 1rem;
+  }
+
+  .popup img {
+    width: 8rem;
+  }
+
+  .popup h2 {
+    font-size: 3rem;
+  }
+
+  .popup p {
+    font-size: 1.2rem;
+  }
+
+  .btn-ok {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
