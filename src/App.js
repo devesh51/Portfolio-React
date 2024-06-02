@@ -6,8 +6,12 @@ import InspiringQuotes from "./components/InspiringQuotes";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import GotoTop from "./components/GotoTop";
-import RoughComponent from "./components/roughComponent";
+import Popup from "./components/Popup";
+import { useState } from "react";
+
 function App() {
+  const [viewPopup, setViewPopup] = useState(false);
+
   return (
     <div>
       <Header />
@@ -15,9 +19,9 @@ function App() {
       <Skills />
       <Projects />
       <InspiringQuotes />
-      <ContactMe />
+      <ContactMe onClick={() => setViewPopup(true)} />
       <GotoTop />
-      <RoughComponent />
+      {viewPopup && <Popup onClose={() => setViewPopup(false)} />}
     </div>
   );
 }

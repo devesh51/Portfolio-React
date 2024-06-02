@@ -1,5 +1,5 @@
 .connect-section {
-  padding: 4rem 10rem 4rem 10rem;
+  padding: 4rem 10rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -8,37 +8,40 @@
 .connect-header {
   padding-left: 5rem;
 }
+
 .connect-header span {
   font-size: 2.5rem;
   font-weight: normal;
 }
+
 .connect-header p {
   margin-top: 1rem;
   font-size: 1.5rem;
   line-height: 1.2;
   color: #767676;
 }
+
 .connectwitme {
   display: flex;
   flex-direction: row;
 }
+
 .downloadgif {
   height: 7rem;
   width: 7rem;
   text-align: center;
   margin-left: 3.7rem;
 }
+
 .resume-part {
   flex: 1;
   display: flex;
   padding-left: 5rem;
   flex-direction: column;
-  // text-align: center;
   margin-top: 4.5rem;
-  // align-items: center;
 }
+
 .text-download {
-  // padding-top: 1rem;
   margin-top: 2rem;
   font-size: 1.8rem;
   font-weight: 300;
@@ -63,18 +66,21 @@
   padding: 3rem 3rem;
   width: 100%;
 }
+
 .connect-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 1.5rem;
 }
+
 .connect-form label {
   display: block;
   font-size: 1.3rem;
   font-weight: 300;
   margin-bottom: 1rem;
 }
+
 .connect-form input,
 .connect-form textarea {
   width: 100%;
@@ -84,14 +90,16 @@
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
+
 .connect-form input::placeholder,
 .connect-form textarea::placeholder {
   color: #aaa;
 }
 
 .text-area {
-  grid-column: 1/3;
+  grid-column: 1 / 3;
 }
+
 .submit-btn {
   background-color: #45260a;
   color: #fff;
@@ -101,4 +109,198 @@
   width: 12rem;
   font-size: 1.2rem;
   text-decoration: none;
+}
+
+/* Mobile devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .connect-section {
+    padding: 2rem 1rem;
+  }
+  .connect-header {
+    padding-left: 1rem;
+  }
+  .connect-header span {
+    font-size: 1.5rem;
+  }
+  .connect-header p {
+    font-size: 1rem;
+  }
+  .connectwitme {
+    flex-direction: column;
+    align-items: center;
+  }
+  .downloadgif {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .resume-part {
+    padding-left: 0;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .text-download {
+    margin-top: 0.2rem;
+    font-size: 1.2rem;
+  }
+  .download-btn {
+    margin-left: 0;
+    width: 9rem;
+    font-size: 1rem;
+  }
+  .form-part {
+    padding: 1rem;
+  }
+  .connect-form {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+  .text-area {
+    grid-column: 1 / 2;
+  }
+  .submit-btn {
+    width: 9rem;
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .connect-section {
+    padding: 3rem 2rem;
+  }
+  .connect-header {
+    padding-left: 2rem;
+  }
+  .connect-header span {
+    font-size: 2rem;
+  }
+  .connect-header p {
+    font-size: 1.2rem;
+  }
+  .connectwitme {
+    flex-direction: column;
+    align-items: center;
+  }
+  .downloadgif {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+  .resume-part {
+    padding-left: 0;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .text-download {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .download-btn {
+    margin-left: 0;
+    width: 11rem;
+    font-size: 1.1rem;
+  }
+  .form-part {
+    padding: 2rem;
+  }
+  .connect-form {
+    grid-template-columns: 1fr;
+    row-gap: 1.2rem;
+  }
+  .text-area {
+    grid-column: 1 / 2;
+  }
+}
+
+/* Small laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .connect-section {
+    padding: 3rem 5rem;
+  }
+  .connect-header {
+    padding-left: 3rem;
+  }
+  .connect-header span {
+    font-size: 2.2rem;
+  }
+  .connect-header p {
+    font-size: 1.3rem;
+  }
+  .connectwitme {
+    flex-direction: row;
+  }
+  .downloadgif {
+    margin-left: 1.5rem;
+  }
+  .resume-part {
+    padding-left: 1.5rem;
+    align-items: flex-start;
+    margin-top: 3rem;
+  }
+  .text-download {
+    margin-top: 1.7rem;
+    font-size: 1.6rem;
+  }
+  .download-btn {
+    margin-left: 1rem;
+    width: 11.5rem;
+    font-size: 1.1rem;
+  }
+  .form-part {
+    padding: 2.5rem;
+  }
+  .connect-form {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 1.3rem;
+  }
+  .text-area {
+    grid-column: 1 / 3;
+  }
+}
+
+/* Desktop and larger screens (1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .connect-section {
+    padding: 4rem 10rem;
+  }
+  .connect-header {
+    padding-left: 5rem;
+  }
+  .connect-header span {
+    font-size: 2.5rem;
+  }
+  .connect-header p {
+    font-size: 1.5rem;
+  }
+  .connectwitme {
+    flex-direction: row;
+  }
+  .downloadgif {
+    margin-left: 3.7rem;
+  }
+  .resume-part {
+    padding-left: 5rem;
+    align-items: flex-start;
+    margin-top: 4.5rem;
+  }
+  .text-download {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+  }
+  .download-btn {
+    margin-left: 1rem;
+    width: 12rem;
+    font-size: 1.2rem;
+  }
+  .form-part {
+    padding: 3rem;
+  }
+  .connect-form {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 1.5rem;
+  }
+  .text-area {
+    grid-column: 1 / 3;
+  }
 }

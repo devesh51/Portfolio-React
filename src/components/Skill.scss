@@ -1,14 +1,16 @@
 .section-skills {
-  padding: 4rem 10rem 4rem 10rem;
+  padding: 4rem 10rem;
   width: 100%;
   background-color: #fdf2e9;
 }
+
 .skills-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .skills-header span {
   font-size: 2.5rem;
   font-weight: 400;
@@ -23,14 +25,88 @@
   gap: 1rem;
   margin: 5rem;
 }
+
 .skill-item img {
   display: block;
   height: 7rem;
   width: 7rem;
   border-radius: 0.5rem;
 }
+
 .skill-item {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+/* Mobile devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .section-skills {
+    padding: 2rem 1rem;
+  }
+  .skills-header span {
+    font-size: 1.5rem;
+  }
+  .skills-details {
+    grid-template-rows: 1fr;
+    margin: 2rem 0;
+  }
+  .skill-item img {
+    height: 5rem;
+    width: 5rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .section-skills {
+    padding: 3rem 2rem;
+  }
+  .skills-header span {
+    font-size: 2rem;
+  }
+  .skills-details {
+    grid-template-rows: repeat(2, 1fr);
+    margin: 3rem;
+  }
+  .skill-item img {
+    height: 6rem;
+    width: 6rem;
+  }
+}
+
+/* Small laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-skills {
+    padding: 3rem 5rem;
+  }
+  .skills-header span {
+    font-size: 2.2rem;
+  }
+  .skills-details {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 4rem;
+  }
+  .skill-item img {
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+}
+
+/* Desktop and larger screens (1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .section-skills {
+    padding: 4rem 10rem;
+  }
+  .skills-header span {
+    font-size: 2.5rem;
+  }
+  .skills-details {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5rem;
+  }
+  .skill-item img {
+    height: 7rem;
+    width: 7rem;
+  }
 }

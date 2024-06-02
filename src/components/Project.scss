@@ -21,7 +21,7 @@
 }
 .projects {
   // max-width: 100rem;
-  margin: 5rem auto 2rem auto;
+  margin: 2rem auto 2rem auto;
   border: 2px solid #f4eeee;
   border-radius: 5px;
 }
@@ -63,4 +63,191 @@
   border: 4px solid #ff00ff;
   border-radius: 1rem;
   transition: 0.2s;
+}
+.section-project {
+  padding: 4rem 10rem;
+  width: 100%;
+}
+
+.project-header {
+  padding-left: 5rem;
+}
+
+.project-text {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.project-quotes {
+  font-size: 1.5rem;
+  color: #767676;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.mywork-container {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.project-Container {
+  border: 1px solid grey;
+  gap: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.Project-Name {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  color: #009ca8;
+}
+
+.Project-Heading {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.Project-Details {
+  margin-top: 1.6rem;
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.project-Container:hover {
+  transform: scale(1.1);
+  border: 4px solid #ff00ff;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+
+/* Mobile devices (up to 600px) */
+@media only screen and (max-width: 600px) {
+  .section-project {
+    padding: 1rem 1rem;
+  }
+  .project-header {
+    padding-left: 1rem;
+  }
+  .project-text {
+    font-size: 1.5rem;
+  }
+  .project-quotes {
+    font-size: 1rem;
+  }
+  .mywork-container {
+    flex-direction: column;
+  }
+  .project-Container {
+    padding: 1rem;
+  }
+  .Project-Name {
+    font-size: 1.5rem;
+  }
+  .Project-Heading {
+    font-size: 1rem;
+  }
+  .Project-Details {
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .section-project {
+    padding: 3rem 2rem;
+  }
+  .project-header {
+    padding-left: 2rem;
+  }
+  .project-text {
+    font-size: 2rem;
+  }
+  .project-quotes {
+    font-size: 1.2rem;
+  }
+  .mywork-container {
+    flex-direction: column;
+  }
+  .project-Container {
+    padding: 1.2rem;
+  }
+  .Project-Name {
+    font-size: 1.8rem;
+  }
+  .Project-Heading {
+    font-size: 1.1rem;
+  }
+  .Project-Details {
+    font-size: 1rem;
+  }
+}
+
+/* Small laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-project {
+    padding: 3rem 5rem;
+  }
+  .project-header {
+    padding-left: 3rem;
+  }
+  .project-text {
+    font-size: 2.2rem;
+  }
+  .project-quotes {
+    font-size: 1.3rem;
+  }
+  .mywork-container {
+    flex-direction: row;
+  }
+  .project-Container {
+    padding: 1.4rem;
+  }
+  .Project-Name {
+    font-size: 1.9rem;
+  }
+  .Project-Heading {
+    font-size: 1.2rem;
+  }
+  .Project-Details {
+    font-size: 1rem;
+  }
+}
+
+/* Desktop and larger screens (1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .section-project {
+    padding: 4rem 10rem;
+  }
+  .project-header {
+    padding-left: 5rem;
+  }
+  .project-text {
+    font-size: 2.5rem;
+  }
+  .project-quotes {
+    font-size: 1.5rem;
+  }
+  .mywork-container {
+    flex-direction: row;
+  }
+  .project-Container {
+    padding: 1.5rem;
+  }
+  .Project-Name {
+    font-size: 2rem;
+  }
+  .Project-Heading {
+    font-size: 1.3rem;
+  }
+  .Project-Details {
+    font-size: 1rem;
+  }
 }
