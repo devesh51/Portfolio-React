@@ -29,12 +29,19 @@ const About = () => {
                 <a
                   className="footer-link"
                   href="https://www.linkedin.com/in/devesh-upadhyay-8736b012b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FaLinkedin className="social-icons" />
                 </a>
               </li>
               <li>
-                <a className="footer-link" href="https://web.whatsapp.com/">
+                <a
+                  className="footer-link"
+                  href="https://web.whatsapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaWhatsapp className="social-icons" />
                 </a>
               </li>
@@ -42,6 +49,8 @@ const About = () => {
                 <a
                   className="footer-link"
                   href="mailto:deveshupadhyay49@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <MdMarkEmailRead className="social-icons" />
                 </a>

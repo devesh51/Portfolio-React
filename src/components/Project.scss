@@ -33,100 +33,41 @@
 }
 
 .project-Container {
-  border: 1px solid grey;
-  gap: 1rem;
-  padding: 1.5rem;
+  border: 1px solid rgb(218, 216, 216);
+  padding: 0.6rem;
   border-radius: 0.5rem;
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   cursor: pointer;
+}
+.video-container {
+  width: 100%;
+  height: 100%;
 }
 
 .Project-Name {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   width: 100%;
-  color: #009ca8;
-}
-.Project-Heading {
-  font-size: 1.3rem;
-  margin-top: 1rem;
-  width: 100%;
-}
-.Project-Details {
-  margin-top: 1.6rem;
-  line-height: 1.4;
-  font-size: 1rem;
-}
-
-.project-Container:hover {
-  transform: scale(1.1);
-  border: 4px solid #ff00ff;
-  border-radius: 1rem;
-  transition: 0.2s;
-}
-.section-project {
-  padding: 4rem 10rem;
-  width: 100%;
-}
-
-.project-header {
-  padding-left: 5rem;
-}
-
-.project-text {
-  font-size: 2.5rem;
-  font-weight: normal;
-  margin-bottom: 1rem;
-}
-
-.project-quotes {
-  font-size: 1.5rem;
-  color: #767676;
-  line-height: 1;
+  color: #051314;
   font-weight: 400;
 }
+// .Project-Heading {
+//   font-size: 1.3rem;
+//   margin-top: 1rem;
+//   width: 100%;
+// }
+// .Project-Details {
+//   margin-top: 1.6rem;
+//   line-height: 1.4;
+//   font-size: 1rem;
+// }
 
-.mywork-container {
-  margin-top: 2.5rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-}
-
-.project-Container {
-  border: 1px solid grey;
-  gap: 1rem;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  margin-bottom: 2rem;
-  cursor: pointer;
-}
-
-.Project-Name {
-  font-size: 2rem;
-  text-align: center;
-  width: 100%;
-  color: #009ca8;
-}
-
-.Project-Heading {
-  font-size: 1.3rem;
-  margin-top: 1rem;
-  width: 100%;
-}
-
-.Project-Details {
-  margin-top: 1.6rem;
-  line-height: 1.4;
-  font-size: 1rem;
-}
-
-.project-Container:hover {
-  transform: scale(1.1);
-  border: 4px solid #ff00ff;
-  border-radius: 1rem;
-  transition: 0.2s;
-}
+// .project-Container:hover {
+//   transform: scale(1.1);
+//   // border: 4px solid #ff00ff;
+//   // border-radius: 1rem;
+//   transition: 0.2s;
+// }
 
 /* Mobile devices (up to 600px) */
 @media only screen and (max-width: 600px) {
@@ -144,19 +85,20 @@
   }
   .mywork-container {
     flex-direction: column;
+    height: 30rem;
   }
   .project-Container {
     padding: 1rem;
   }
-  .Project-Name {
-    font-size: 1.5rem;
-  }
-  .Project-Heading {
-    font-size: 1rem;
-  }
-  .Project-Details {
-    font-size: 0.9rem;
-  }
+  // .Project-Name {
+  //   font-size: 1.5rem;
+  // }
+  // .Project-Heading {
+  //   font-size: 1rem;
+  // }
+  // .Project-Details {
+  //   font-size: 0.9rem;
+  // }
 }
 
 /* Tablets (601px to 768px) */
@@ -179,15 +121,15 @@
   .project-Container {
     padding: 1.2rem;
   }
-  .Project-Name {
-    font-size: 1.8rem;
-  }
-  .Project-Heading {
-    font-size: 1.1rem;
-  }
-  .Project-Details {
-    font-size: 1rem;
-  }
+  // .Project-Name {
+  //   font-size: 1.8rem;
+  // }
+  // .Project-Heading {
+  //   font-size: 1.1rem;
+  // }
+  // .Project-Details {
+  //   font-size: 1rem;
+  // }
 }
 
 /* Small laptops (769px to 1024px) */
@@ -204,21 +146,21 @@
   .project-quotes {
     font-size: 1.3rem;
   }
-  .mywork-container {
-    flex-direction: row;
-  }
-  .project-Container {
-    padding: 1.4rem;
-  }
-  .Project-Name {
-    font-size: 1.9rem;
-  }
-  .Project-Heading {
-    font-size: 1.2rem;
-  }
-  .Project-Details {
-    font-size: 1rem;
-  }
+  // .mywork-container {
+  //   flex-direction: row;
+  // }
+  // .project-Container {
+  //   padding: 1.4rem;
+  // }
+  // .Project-Name {
+  //   font-size: 1.9rem;
+  // }
+  // .Project-Heading {
+  //   font-size: 1.2rem;
+  // }
+  // .Project-Details {
+  //   font-size: 1rem;
+  // }
 }
 
 /* Desktop and larger screens (1025px and up) */
@@ -235,19 +177,19 @@
   .project-quotes {
     font-size: 1.5rem;
   }
-  .mywork-container {
-    flex-direction: row;
-  }
-  .project-Container {
-    padding: 1.5rem;
-  }
-  .Project-Name {
-    font-size: 2rem;
-  }
-  .Project-Heading {
-    font-size: 1.3rem;
-  }
-  .Project-Details {
-    font-size: 1rem;
-  }
+  // .mywork-container {
+  //   flex-direction: row;
+  // }
+  // .project-Container {
+  //   padding: 1.5rem;
+  // }
+  // .Project-Name {
+  //   font-size: 2rem;
+  // }
+  // .Project-Heading {
+  //   font-size: 1.3rem;
+  // }
+  // .Project-Details {
+  //   font-size: 1rem;
+  // }
 }
