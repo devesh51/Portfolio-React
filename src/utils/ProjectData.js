@@ -24,7 +24,7 @@ export const ProjectsData = [
   {
     id: 3,
     projectName: "Youtube Clone",
-    url: "https://www.youtube.com/",
+    url: "http://52.66.205.179/",
     video: youtubeClone,
     ProjectHeading: "Tranfser money to anyone, instantly! No fees, no BS.",
     ProjectDetails:
