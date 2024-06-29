@@ -19,18 +19,16 @@ const Projects = () => {
           {ProjectsData.map((item) => {
             return (
               <div className="project-Container">
-                <div>
-                  {/* <button onClick={handlePlay}>play▶️</button> */}
-                  <video
-                    className="video-container"
-                    ref={videoRef}
-                    loop
-                    muted
-                    autoPlay="autoplay"
-                  >
-                    <source key={item.id} src={item.video} />
-                  </video>
-                </div>
+                <video
+                  className="video-container"
+                  ref={videoRef}
+                  loop
+                  muted
+                  autoPlay="autoplay"
+                >
+                  <source key={item.id} src={item.video} />
+                </video>
+
                 <div className="Project-Name">
                   <a href={item.url} target="_blank" rel="noopener noreferrer">
                     {item.projectName}

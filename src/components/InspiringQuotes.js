@@ -4,7 +4,7 @@ import QuotesSlider from "./QuotesSlider";
 
 const InspiringQuotes = () => {
   return (
-    <div>
+    <div className="sectionInspring">
       <section class="section-inspiring" id="section-4">
         <div class="inspiring-box">
           <h1 class="heading">Inspiring Quotes</h1>
